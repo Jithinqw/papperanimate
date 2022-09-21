@@ -1,14 +1,21 @@
 /* Base varables */
-@import './_base.css';
-@import './_vars.css';
+@import "./_base.css";
+@import "./_vars.css";
 
 /* Basic Anime */
-@import './basic/bounce.css';
-@import './basic/pulse.css';
-@import './basic/shake.css';
-@import './basic/shakeX.css';
-@import './basic/shakeY.css';
-@import './basic/jello.css';
-@import './basic/rubberBand.css';
-@import './basic/tada.css';
-@import './basic/wobble.css';
+@import "./basic/bounce.css";
+@import "./basic/pulse.css";
+@import "./basic/shake.css";
+@import "./basic/shakeX.css";
+@import "./basic/shakeY.css";
+@import "./basic/jello.css";
+@import "./basic/rubberBand.css";
+@import "./basic/tada.css";
+@import "./basic/wobble.css";
+
+/* Zoom Anime */
+@import './zoom/zoomIn.css';
+@import './zoom/zoomInDown.css';
+@import './zoom/zoomInLeft.css';
+@import './zoom/zoomInRight.css';
+@import './zoom/zoomInUp.css';

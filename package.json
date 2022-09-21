@@ -4,16 +4,14 @@
   "description": "An easy animation library",
   "main": "papperanimate.css",
   "author": "Jithin Zacharia",
-  "homepage":"jithinqw.github.io/",
+  "homepage": "jithinqw.github.io/",
   "scripts": {
     "start": "npm-run-all raw prod compat",
     "compat": "npx postcss src/papperanimate.css -o papperanimate.compat.css --no-map --env compat",
     "dev": "npx postcss src/papperanimate.css -o papperanimate.css --no-map --env development -w",
     "raw": "npx postcss src/papperanimate.css -o papperanimate.css --no-map --env development",
     "prod": "npx postcss src/papperanimate.css -o papperanimate.min.css --no-map --env production",
-    "format": "prettier --write \"**/*.{js,json,md,css}\"",
-    "version": "npm-run-all start docs && git add -A docs papperanimate.css papperanimate.min.css papperanimate.compat.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write \"**/*.{js,json,md,css}\""
   },
   "style": "./papperanimate.css",
   "animateConfig": {
