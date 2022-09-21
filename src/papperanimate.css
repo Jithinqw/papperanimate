@@ -1,3 +1,6 @@
+@import './_base.css';
+@import './_vars.css';
+
 @import './bounce.css';
 @import './pulse.css';
 @import './shake.css';
