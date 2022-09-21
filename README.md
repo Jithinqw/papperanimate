@@ -17,6 +17,7 @@ Use as CDN link in your web site as below,
 
 ```html
     <!DOCTYPE html>
+    <html>
         <head>
             <link 
                 href="https://cdn.jsdelivr.net/npm/papperanimate@0.0.6/papperanimate.min.css" 
