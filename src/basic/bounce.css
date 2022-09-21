@@ -29,6 +29,6 @@
 }
   
 .bounce {
-    animation-name: bounce;
-    transform-origin: center bottom;
+  animation-name: bounce;
+  transform-origin: center bottom;
 }

@@ -1,12 +1,14 @@
+/* Base varables */
 @import './_base.css';
 @import './_vars.css';
 
-@import './bounce.css';
-@import './pulse.css';
-@import './shake.css';
-@import './shakeX.css';
-@import './shakeY.css';
-@import './jello.css';
-@import './rubberBand.css';
-@import './tada.css';
-@import './wobble.css';
+/* Basic Anime */
+@import './basic/bounce.css';
+@import './basic/pulse.css';
+@import './basic/shake.css';
+@import './basic/shakeX.css';
+@import './basic/shakeY.css';
+@import './basic/jello.css';
+@import './basic/rubberBand.css';
+@import './basic/tada.css';
+@import './basic/wobble.css';
