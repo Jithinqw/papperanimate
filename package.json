@@ -7,10 +7,10 @@
   "homepage":"jithinqw.github.io/",
   "scripts": {
     "start": "npm-run-all raw prod compat",
-    "compat": "npx postcss source/papperanimate.css -o papperanimate.compat.css --no-map --env compat",
-    "dev": "npx postcss source/papperanimate.css -o papperanimate.css --no-map --env development -w",
-    "raw": "npx postcss source/papperanimate.css -o papperanimate.css --no-map --env development",
-    "prod": "npx postcss source/papperanimate.css -o papperanimate.min.css --no-map --env production",
+    "compat": "npx postcss src/papperanimate.css -o papperanimate.compat.css --no-map --env compat",
+    "dev": "npx postcss src/papperanimate.css -o papperanimate.css --no-map --env development -w",
+    "raw": "npx postcss src/papperanimate.css -o papperanimate.css --no-map --env development",
+    "prod": "npx postcss src/papperanimate.css -o papperanimate.min.css --no-map --env production",
     "format": "prettier --write \"**/*.{js,json,md,css}\"",
     "version": "npm-run-all start docs && git add -A docs papperanimate.css papperanimate.min.css papperanimate.compat.css",
     "test": "echo \"Error: no test specified\" && exit 1"
