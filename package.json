@@ -4,7 +4,7 @@
   "description": "An easy animation library",
   "main": "papperanimate.css",
   "author": "Jithin Zacharia",
-  "homepage": "jithinqw.github.io/",
+  "homepage": "https://github.com/Jithinqw/papperanimate.git",
   "scripts": {
     "start": "npm-run-all raw prod compat",
     "compat": "npx postcss src/papperanimate.css -o papperanimate.compat.css --no-map --env compat",
@@ -24,7 +24,7 @@
       "lib": "./"
     }
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "chalk": "^5.0.1",
@@ -43,9 +43,12 @@
     "prettier": "^2.7.1"
   },
   "lint-staged": {
-    "*.{mjs,js,json,md,css}": "prettier --write"
+    "*.{js,json,md,css}": "prettier --write"
   },
   "files": [
-    "papperanimate.css"
+    "src/**/*.css",
+    "papperanimate.css",
+    "papperanimate.min.css",
+    "papperanimate.compat.css"
   ]
 }
