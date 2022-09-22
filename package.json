@@ -11,7 +11,7 @@
     "dev": "npx postcss src/papperanimate.css -o papperanimate.css --no-map --env development -w",
     "raw": "npx postcss src/papperanimate.css -o papperanimate.css --no-map --env development",
     "prod": "npx postcss src/papperanimate.css -o papperanimate.min.css --no-map --env production",
-    "format": "prettier --write \"**/*.{js,json,md,css}\""
+    "format": "prettier --write \"**/*.{js,json,md,css,html}\""
   },
   "style": "./papperanimate.css",
   "animateConfig": {

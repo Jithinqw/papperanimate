@@ -51,7 +51,7 @@ Use as CDN link in your web site as below,
 
 ## WebSite
 
-A demo website lives [here](https://idyllic-cendol-aabe1b.netlify.app/), using 
+A demo website lives [here](https://idyllic-cendol-aabe1b.netlify.app/), using
 [TailwindCSS](https://tailwindcss.com/) and [Papperanimate](https://idyllic-cendol-aabe1b.netlify.app/).
 Source code is under [source](./site/index.html) folder.
 
