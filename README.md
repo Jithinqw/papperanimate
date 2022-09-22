@@ -1,6 +1,6 @@
 # Papper Animate
 
-A easy animation library.
+An easy CSS animation library.
 
 <div align="center">
 
@@ -36,15 +36,11 @@ Use as CDN link in your web site as below,
   <head>
     <link
       href="https://cdn.jsdelivr.net/npm/papperanimate@0.0.8/papperanimate.min.css"
-      rel="stylesheet"
-      crossorigin="anonymous"
-    />
+      rel="stylesheet" crossorigin="anonymous">
     <!-- or -->
     <link
       href="https://cdn.jsdelivr.net/npm/papperanimate@0.0.8/papperanimate.css"
-      rel="stylesheet"
-      crossorigin="anonymous"
-    />
+      rel="stylesheet" crossorigin="anonymous">
   </head>
 </html>
 ```
