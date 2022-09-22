@@ -1,131 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="description" content="Instant CSS animations">
+        <meta name="keywords" content="CSS, Animation">
+        <meta name="author" content="Jithin Zacharia">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://cdn.tailwindcss.com"></script>
         <link 
-            href="https://cdn.jsdelivr.net/npm/papperanimate@0.0.6/papperanimate.min.css" 
-            rel="stylesheet" 
-            crossorigin="anonymous"
-        />
-        <title>
-            Papper Animate - Docs
-        </title>
+            href="https://cdn.jsdelivr.net/npm/papperanimate@0.0.8/papperanimate.min.css" 
+            rel="stylesheet" crossorigin="anonymous">
+        </link>
+        <title>Papper Animate - Docs</title>
     </head>
     <body>
-        <h1 class="text-3xl lg:text-5xl text-center mb-12">Papper Animate</h1>
-        <nav class="text-base lg:text-sm w-64 pr-8 xl:w-72 xl:pr-16">
-            <ul role="list" class="space-y-9">
-                <li>
-                    <h2 class="font-display font-medium text-slate-900 dark:text-white">Introduction</h2>
-                    <ul role="list" class="mt-2 space-y-2 border-l-2 border-slate-100 dark:border-slate-800 lg:mt-4 lg:space-y-4 lg:border-slate-200">
-                        <li class="relative">
-                            <a class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full font-semibold text-sky-500 before:bg-sky-500" href="/">Getting started</a>
-                        </li>
-                        <li class="relative">
-                            <a class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/installation">Installation</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <h2 class="font-display font-medium text-slate-900 dark:text-white">Core concepts</h2>
-                    <ul role="list" class="mt-2 space-y-2 border-l-2 border-slate-100 dark:border-slate-800 lg:mt-4 lg:space-y-4 lg:border-slate-200">
-                        <li class="relative">
-                            <a 
-                                class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" 
-                                href="/docs/understanding-caching">
-                                Understanding caching
-                            </a>
-                        </li>
-                        <li class="relative">
-                            <a 
-                                class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" 
-                                href="/docs/predicting-user-behavior">
-                                Predicting user behavior
-                            </a>
-                        </li>
-                        <li class="relative">
-                            <a 
-                                class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" 
-                                href="/docs/basics-of-time-travel">
-                                Basics of time-travel
-                            </a>
-                        </li>
-                        <li class="relative">
-                            <a 
-                                class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" 
-                                href="/docs/introduction-to-string-theory">
-                                Introduction to string theory
-                            </a>
-                        </li>
-                        <li class="relative">
-                            <a 
-                                class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" 
-                                href="/docs/the-butterfly-effect">
-                                The butterfly effect
-                            </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h2 class="font-display font-medium text-slate-900 dark:text-white">Advanced guides</h2>
-                        <ul role="list" class="mt-2 space-y-2 border-l-2 border-slate-100 dark:border-slate-800 lg:mt-4 lg:space-y-4 lg:border-slate-200">
-                            <li class="relative">
-                                <a 
-                                    class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" 
-                                    href="/docs/writing-plugins">
-                                    Writing plugins
-                                </a>
-                            </li>
-                            <li class="relative">
-                                <a 
-                                    class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" 
-                                    href="/docs/neuralink-integration">
-                                    Neuralink integration
-                                </a>
-                            </li>
-                            <li class="relative">
-                                <a 
-                                    class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" 
-                                    href="/docs/temporal-paradoxes">
-                                    Temporal paradoxes
-                                </a>
-                            </li>
-                            <li class="relative">
-                                <a class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/testing">Testing</a>
-                            </li>
-                            <li class="relative">
-                                <a class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/compile-time-caching">Compile-time caching</a>
-                            </li>
-                            <li class="relative">
-                                <a class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" href="/docs/predictive-data-generation">Predictive data generation</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h2 class="font-display font-medium text-slate-900 dark:text-white">
-                            API reference
-                        </h2>
-                        <ul role="list" class="mt-2 space-y-2 border-l-2 border-slate-100 dark:border-slate-800 lg:mt-4 lg:space-y-4 lg:border-slate-200">
-                            <li class="relative">
-                                <a 
-                                    class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" 
-                                    href="/docs/cacheadvance-predict">
-                                    CacheAdvance.predict()
-                                </a>
-                            </li>
-                            <li class="relative">
-                                <a 
-                                    class="block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300" 
-                                    href="/docs/cacheadvance-flush">
-                                    CacheAdvance.flush()
-                                </a>
-                            
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <div class="relative max-w-5xl mx-auto">
+            <h1 role="heading" class="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 papperanimate_animated papperanimate_wobble">
+                Papper Animate
+            </h1>
+            <p class="mt-6 text-lg text-center max-w-3xl mx-auto dark:text-slate-400 text-transparent bg-clip-text bg-gradient-to-l from-green-500 to-purple-500 papperanimate_animated papperanimate_jello">
+                Add animations to any HTML element as simple by adding classes.
+            </p>
+        </div>
+        <div class="relative max-w-5xl mx-auto pt-12 sm:pt-8 lg:pt-18">
+            <div>
+                <p id="targetDancer" class="mt-6 text-lg text-center max-w-3xl mx-auto dark:text-slate-400 text-transparent bg-clip-text bg-gradient-to-l from-green-500 to-purple-500">
+                    Click on any animation type to see me dance.
+                </p>
+            </div>
+            <!-- Basic -->
+            <div class="mb-2 text-sm leading-6 font-semibold text-sky-500 dark:text-sky-400">Basic</div>
+            <div id="basicAnimeList" class="pointer-events-auto flex divide-x justify-center justify-items-center items-center divide-slate-400/20 overflow-hidden rounded-md bg-white text-[0.8125rem] font-medium leading-5 text-slate-700 shadow-sm ring-1 ring-slate-700/10"></div>
+            <!-- Zoom -->
+            <div class="mb-2 text-sm leading-6 font-semibold text-sky-500 dark:text-sky-400">Zoom</div>
+            <div id="zoomAnimeList" class="pointer-events-auto flex divide-x justify-center justify-items-center items-center divide-slate-400/20 overflow-hidden rounded-md bg-white text-[0.8125rem] font-medium leading-5 text-slate-700 shadow-sm ring-1 ring-slate-700/10"></div>
+            <!-- light -->
+            <div class="mb-2 text-sm leading-6 font-semibold text-sky-500 dark:text-sky-400">Light</div>
+            <div id="lightAnimeList" class="pointer-events-auto flex divide-x justify-center justify-items-center items-center divide-slate-400/20 overflow-hidden rounded-md bg-white text-[0.8125rem] font-medium leading-5 text-slate-700 shadow-sm ring-1 ring-slate-700/10"></div>
+            <!-- flip -->
+            <div class="mb-2 text-sm leading-6 font-semibold text-sky-500 dark:text-sky-400">Flip</div>
+            <div id="flipAnimeList" class="pointer-events-auto flex divide-x justify-center justify-items-center items-center divide-slate-400/20 overflow-hidden rounded-md bg-white text-[0.8125rem] font-medium leading-5 text-slate-700 shadow-sm ring-1 ring-slate-700/10"></div>
+        </div>
     </body>
+    <script>
+        // Common constants
+        const styleList = ['py-2', 'px-4', 'hover:bg-slate-50'];
+        const styleCommon = 'papperanimate_animated';
+        const styleMap = [
+            {animeName:'wobble', papperAnimeClassName:'papperanimate_wobble', id:'basicAnimeList'},
+            {animeName:'bounce', papperAnimeClassName:'papperanimate_bounce', id:'basicAnimeList'},
+            {animeName:'jello', papperAnimeClassName:'papperanimate_jello', id:'basicAnimeList'},
+            {animeName:'rubberBand', papperAnimeClassName:'papperanimate_rubberBand', id:'basicAnimeList'},
+            {animeName:'shake', papperAnimeClassName:'papperanimate_shake', id:'basicAnimeList'},
+            {animeName:'pulse', papperAnimeClassName:'papperanimate_pulse', id:'basicAnimeList'},
+            {animeName:'shakeX', papperAnimeClassName:'papperanimate_shakeX', id:'basicAnimeList'},
+            {animeName:'shakeY', papperAnimeClassName:'papperanimate_shakeY', id:'basicAnimeList'},
+            {animeName:'tada', papperAnimeClassName:'papperanimate_tada', id:'basicAnimeList'},
+
+            {animeName:'flip', papperAnimeClassName:'papperanimate_flip', id:'flipAnimeList'},
+
+            {animeName:'zoomIn', papperAnimeClassName:'papperanimate_zoomIn', id:'zoomAnimeList'},
+            {animeName:'zoomInDown', papperAnimeClassName:'papperanimate_zoomInDown', id:'zoomAnimeList'},
+            {animeName:'zoomInRight', papperAnimeClassName:'papperanimate_zoomInRight', id:'zoomAnimeList'},
+            {animeName:'zoomInUp', papperAnimeClassName:'papperanimate_zoomInUp', id:'zoomAnimeList'},
+
+            {animeName:'lightInLeft', papperAnimeClassName:'papperanimate_lightSpeedInLeft', id:'lightAnimeList'},
+            {animeName:'lightInRight', papperAnimeClassName:'papperanimate_lightSpeedInRight', id:'lightAnimeList'},
+            {animeName:'lightOutLeft', papperAnimeClassName:'papperanimate_lightSpeedOutLeft', id:'lightAnimeList'},
+            {animeName:'lightOutRight', papperAnimeClassName:'papperanimate_lightSpeedOutRight', id:'lightAnimeList'},
+
+        ];
+        const basicAnime = styleMap && styleMap.length > 0 && styleMap.filter((e) => !!e && e.id === 'basicAnimeList');
+        const zoomAnime = styleMap && styleMap.length > 0 && styleMap.filter((e) => !!e && e.id === 'zoomAnimeList');
+        const lightAnime = styleMap && styleMap.length > 0 && styleMap.filter((e) => !!e && e.id === 'lightAnimeList');
+        const flipAnime = styleMap && styleMap.length > 0 && styleMap.filter((e) => !!e && e.id === 'flipAnimeList');
+        
+        /**
+         * @function trigger
+         * Process click event.
+        **/
+        function trigger (e) {
+            const targetText = e.target.innerHTML;
+            const foundObj = styleMap && styleMap.length > 0 && 
+                styleMap.find((target) => !!target && target.animeName === targetText);
+            const targetDanceEle = document.getElementById('targetDancer');
+            const lastOne = targetDanceEle.classList[targetDanceEle.classList.length - 1];
+            const secondLastOne = targetDanceEle.classList[targetDanceEle.classList.length - 2];
+            const isclassPreviouslyAdded = lastOne.search('papperanimate_')
+            if(isclassPreviouslyAdded >= 0) {
+                targetDanceEle.classList.remove(lastOne);
+                targetDanceEle.classList.remove(secondLastOne);
+            }
+            targetDanceEle.classList.add(styleCommon);
+            targetDanceEle.classList.add(foundObj.papperAnimeClassName);
+        }
+
+        // Initial render processing
+        basicAnime && basicAnime.length > 0 && basicAnime.map((e, i) => {
+            const divEle = document.createElement("div");
+            const node = document.createTextNode(e.animeName);
+            divEle.appendChild(node);
+            divEle.onclick=trigger;
+            styleList.map((ele, index) => {
+                divEle.classList.add(ele);
+            });
+            divEle.style.cursor = "pointer";
+            const sideBarList = document.getElementById("basicAnimeList");
+            sideBarList.appendChild(divEle);
+        });
+
+        zoomAnime && zoomAnime.length > 0 && zoomAnime.map((e, i) => {
+            const divEle = document.createElement("div");
+            const node = document.createTextNode(e.animeName);
+            divEle.appendChild(node);
+            divEle.onclick=trigger;
+            styleList.map((ele, index) => {
+                divEle.classList.add(ele);
+            });
+            divEle.style.cursor = "pointer";
+            const sideBarList = document.getElementById("zoomAnimeList");
+            sideBarList.appendChild(divEle);
+        });
+
+        lightAnime && lightAnime.length > 0 && lightAnime.map((e, i) => {
+            const divEle = document.createElement("div");
+            const node = document.createTextNode(e.animeName);
+            divEle.appendChild(node);
+            divEle.onclick=trigger;
+            styleList.map((ele, index) => {
+                divEle.classList.add(ele);
+            })
+            divEle.style.cursor = "pointer";
+            const sideBarList = document.getElementById("lightAnimeList");
+            sideBarList.appendChild(divEle);
+        });
+
+        flipAnime && flipAnime.length > 0 && flipAnime.map((e, i) => {
+            const divEle = document.createElement("div");
+            const node = document.createTextNode(e.animeName);
+            divEle.appendChild(node);
+            divEle.onclick=trigger;
+            styleList.map((ele, index) => {
+                divEle.classList.add(ele);
+            });
+            divEle.style.cursor = "pointer";
+            const sideBarList = document.getElementById("flipAnimeList");
+            sideBarList.appendChild(divEle);
+        });
+    </script>
 </html>
