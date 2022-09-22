@@ -19,3 +19,12 @@
 @import './zoom/zoomInLeft.css';
 @import './zoom/zoomInRight.css';
 @import './zoom/zoomInUp.css';
+
+/* Flip Anime */
+@import './flip/flip.css';
+
+/* Light Anime */
+@import './light/lightInLeft.css';
+@import './light/lightInRight.css';
+@import './light/lightOutLeft.css';
+@import './light/lightOutRight.css';
