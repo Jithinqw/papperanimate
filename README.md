@@ -4,12 +4,14 @@ A easy animation library.
 
 <div align="center">
 
-![version](https://img.shields.io/npm/v/papperanimate)
+![Version](https://img.shields.io/npm/v/papperanimate)
 ![License](https://img.shields.io/github/license/Jithinqw/papperanimate)
 ![File Size](https://img.shields.io/bundlephobia/minzip/papperanimate)
 ![Stars](https://img.shields.io/github/stars/Jithinqw/papperanimate)
 ![Forks](https://img.shields.io/github/forks/Jithinqw/papperanimate)
 ![Issues](https://img.shields.io/github/issues/Jithinqw/papperanimate)
+![Downloads](https://img.shields.io/npm/dm/papperanimate)
+
 </div>
 
 # Installation
