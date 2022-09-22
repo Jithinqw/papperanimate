@@ -14,17 +14,17 @@
 @import "./basic/wobble.css";
 
 /* Zoom Anime */
-@import './zoom/zoomIn.css';
-@import './zoom/zoomInDown.css';
-@import './zoom/zoomInLeft.css';
-@import './zoom/zoomInRight.css';
-@import './zoom/zoomInUp.css';
+@import "./zoom/zoomIn.css";
+@import "./zoom/zoomInDown.css";
+@import "./zoom/zoomInLeft.css";
+@import "./zoom/zoomInRight.css";
+@import "./zoom/zoomInUp.css";
 
 /* Flip Anime */
-@import './flip/flip.css';
+@import "./flip/flip.css";
 
 /* Light Anime */
-@import './light/lightInLeft.css';
-@import './light/lightInRight.css';
-@import './light/lightOutLeft.css';
-@import './light/lightOutRight.css';
+@import "./light/lightInLeft.css";
+@import "./light/lightInRight.css";
+@import "./light/lightOutLeft.css";
+@import "./light/lightOutRight.css";

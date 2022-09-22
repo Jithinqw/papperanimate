@@ -18,8 +18,8 @@ A easy animation library.
 
 ## Using NPM
 
-This repository is distributed with [npm](https://www.npmjs.com/). 
-After [installing npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), 
+This repository is distributed with [npm](https://www.npmjs.com/).
+After [installing npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm),
 you can install `papperanimate` with this command:
 
 ```sh
@@ -31,22 +31,22 @@ you can install `papperanimate` with this command:
 Use as CDN link in your web site as below,
 
 ```html
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <link 
-                href="https://cdn.jsdelivr.net/npm/papperanimate@0.0.6/papperanimate.min.css" 
-                rel="stylesheet" 
-                crossorigin="anonymous"
-            />
-            <!-- or -->
-            <link 
-                href="https://cdn.jsdelivr.net/npm/papperanimate@0.0.6/papperanimate.css" 
-                rel="stylesheet" 
-                crossorigin="anonymous"
-            />
-        </head>
-    </html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/papperanimate@0.0.6/papperanimate.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <!-- or -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/papperanimate@0.0.6/papperanimate.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+  </head>
+</html>
 ```
 
 ## License

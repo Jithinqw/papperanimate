@@ -1,6 +1,6 @@
 {
   "name": "papperanimate",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "An easy animation library",
   "main": "papperanimate.css",
   "author": "Jithin Zacharia",
@@ -43,7 +43,7 @@
     "prettier": "^2.7.1"
   },
   "lint-staged": {
-    "*.{js,json,md,css}": "prettier --write"
+    "*.{js,json,md,css,html}": "prettier --write"
   },
   "files": [
     "src/**/*.css",
