@@ -22,6 +22,10 @@
 
 /* Flip Anime */
 @import "./flip/flip.css";
+@import "./flip/flipInX.css";
+@import "./flip/flipInY.css";
+@import "./flip/flipOutX.css";
+@import "./flip/flipOutY.css";
 
 /* Light Anime */
 @import "./light/lightInLeft.css";
