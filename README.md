@@ -97,6 +97,10 @@ Install npm module using ```npm i papperanimate```.
 | Animation Name   | Class Name
 |----------|:-------------
 | Flip | papperanimate_flip |
+| FlipInX | papperanimate_flipInX |
+| FlipInY | papperanimate_flipInY |
+| FlipOutX | papperanimate_flipOutX |
+| FlipOutY | papperanimate_flipOutY |
 
 
 ## WebSite
